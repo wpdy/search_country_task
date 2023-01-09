@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a28089;
+    position: relative;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+#root {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#about_country {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: #ffa8B6;
+}
+
+#about_country > * {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#search_country {
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    top: 400px;
+    right: 725px;
+}
+
+#enter_country {
+    position: absolute;
+    height: 30px;
+    width: 250px;
+    top: 400px;
+    right: 775px;
+}
+
+#close_search {
+    margin: 15px;
+    height: 25px;
+    font-size: 20px;
+}
